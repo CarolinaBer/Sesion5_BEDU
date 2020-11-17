@@ -1,4 +1,5 @@
 # Sesión5 BEDU:Consultas en MongoDB.
+Para realizar las consultas haremos uso de las ***expresiones regulares** (regular expresions)*** 
 ![imagen](regex.png)
 ### :pushpin: Reto 1. Expresiones regulares.
 Usando la base de datos `sample_airbnblistingsAndReviews`, realiza los siguientes filtros:
