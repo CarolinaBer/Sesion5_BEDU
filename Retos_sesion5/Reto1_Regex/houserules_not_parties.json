@@ -1,0 +1,10 @@
+{
+ filter: {
+  house_rules: RegExp('not? part(ies|y)', i)
+ },
+ project: {
+  name: 1,
+  house_rules: 1,
+  summary: 1
+ }
+}
