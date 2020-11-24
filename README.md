@@ -14,7 +14,8 @@ Usando la base de datos `sample_airbnblistingsAndReviews`, realiza los siguiente
 - Propiedades que no permitan fumadores.
 - Propiedades que no permitan fiestas ni fumadores.
 ### :pushpin: Reto 2. Notación punto y arreglos. 
-Usando la colección `sample_airbnblistingsAndReviews`, agrega un filtro que permita obtener todas las publicaciones que tengan 50 o más comentarios, que la valoración sea mayor o igual a 80, que cuenten con conexión a Internet vía cable y estén ubicada en Brazil.
+Para las consultas a *objetos anidados* (objetos dentro de objetos) ya sea dentro de un solo campo o dentro de un arreglo hacemos uso de la ***notación punto***
+- Usando la colección `sample_airbnblistingsAndReviews`, agrega un filtro que permita obtener todas las publicaciones que tengan 50 o más comentarios, que la valoración sea mayor o igual a 80, que cuenten con conexión a Internet vía cable y estén ubicada en Brazil.
 **NOTA** En este caso es mejor utilizar el código de país para encontrar la ubicación deseada. 
 ### :pushpin: Reto 3. Introducción a las agregaciones.
 Usando la colección `sample_airbnblistingsAndReviews`, mediante el uso de agregaciones, encontrar el número de publicaciones que tienen conexión a Internet, sea desde Wifi o desde cable (Ethernet).
