@@ -1,0 +1,11 @@
+{
+ filter: {
+  house_rules: {
+   $not: RegExp('not? pets ', i)
+  }
+ },
+ project: {
+  name: 1,
+  house_rules: 1
+ }
+}
