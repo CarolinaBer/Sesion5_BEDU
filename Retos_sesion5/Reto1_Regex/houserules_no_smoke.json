@@ -1,9 +1,0 @@
-{
- filter: {
-  house_rules: RegExp('not? smok(ing)?', i)
- },
- project: {
-  name: 1,
-  house_rules: 1
- }
-}
