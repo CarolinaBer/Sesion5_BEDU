@@ -1,0 +1,21 @@
+{
+ filter: {
+  number_of_reviews: {
+   $gte: 50
+  },
+  'review_scores.review_scores_rating': {
+   $gte: 80
+  },
+  amenities: {
+   $in: [
+    RegExp('Ethernet', i)
+   ]
+  },
+  'address.country_code': 'BR'
+ },
+ project: {
+  name: 1,
+  amenities: 1,
+  'address.country_code': 1
+ }
+}
