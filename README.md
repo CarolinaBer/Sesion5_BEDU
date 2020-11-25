@@ -41,5 +41,5 @@ Para este reto hay dos soluciones posibles:
 - Ulilizando **$group**.
 ![imagen](imagenes/casas_internet_group.png)
 
-En este caso **$sum:1** dentro de **$group** funciona como un contador, ya que por cada documento suma 1, es decir un conteo.
+En este caso **$sum:1** dentro de **$group** funciona como un contador, ya que por cada documento suma 1, es decir un conteo. El cual cuenta todos los documentos resultantes del pipeline.
 
