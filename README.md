@@ -25,6 +25,7 @@ Para las consultas a *objetos anidados* (objetos dentro de objetos) ya sea dentr
   ![imagen](imagenes/anidada_ethernet.png)
 ### :pushpin: Reto 3. Introducción a las agregaciones.
 Mientras que en SQL teníamos el concepto de subconsultas, MongoDB tenemos el concepto de **agregación**. De tal forma que se introduce el concepto de **Pipeline** la cual es una serie de *stages* o *capas* en donde cada una de ellas recibe como input los datos de capa anterior y en cada paso se genera una nueva colección de datos. Además, en cada capa podemos agregar nuevos campos (**$AddFields**), ordenar colecciones(**$sort**), filtrar datos (**$match**), realizar agrupamientos(**$group**), etc. 
+
 ![imagen](imagenes/pipeline.png)
 
 Imagen tomada de: Sharma, V. (2016, 28 octubre). Aggregation in MongoDB. CodeProject. https://www.codeproject.com/Articles/1149682/Aggregation-in-MongoDB . 
@@ -34,5 +35,11 @@ También podemos consultar la documentación de MongoDB https://docs.mongodb.com
 
 Para este reto hay dos soluciones posibles:
 
-- Ulilizando **$group**.
 - Utilizando **$count**.
+![imagen](imagenes/casas_internet_count.png)
+
+- Ulilizando **$group**.
+![imagen](imagenes/casas_internet_group.png)
+
+En este caso **$sum:1** dentro de **$group** funciona como un contador, ya que por cada documento suma 1, es decir un conteo.
+
