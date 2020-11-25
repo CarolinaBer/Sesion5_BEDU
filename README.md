@@ -27,6 +27,9 @@ Para las consultas a *objetos anidados* (objetos dentro de objetos) ya sea dentr
 Mientras que en SQL teníamos el concepto de subconsultas, MongoDB tenemos el concepto de **agregación**. De tal forma que se introduce el concepto de **Pipeline** la cual es una serie de *stages* o *capas* en donde cada una de ellas recibe como input los datos de capa anterior y en cada paso se genera una nueva colección de datos. Además, en cada capa podemos agregar nuevos campos (**$AddFields**), ordenar colecciones(**$sort**), filtrar datos (**$match**), realizar agrupamientos(**$group**), etc. 
 ![imagen](imagenes/pipeline.png)
 
+Imagen tomada de: Sharma, V. (2016, 28 octubre). Aggregation in MongoDB. CodeProject. https://www.codeproject.com/Articles/1149682/Aggregation-in-MongoDB
+También podemos consultar la documentación de MongoDB https://docs.mongodb.com/manual/core/aggregation-pipeline/. 
+
 - **Usando la colección `sample_airbnblistingsAndReviews`, mediante el uso de agregaciones, encontrar el número de publicaciones que tienen conexión a Internet, sea desde Wifi o desde cable (Ethernet).**
 
 Para este reto hay dos soluciones posibles:
