@@ -10,12 +10,17 @@ Otra liga útil para las regex es: JavaScript RegExp Reference. (s. f.). w3schoo
 Usando la base de datos `sample_airbnblistingsAndReviews`, realiza los siguientes filtros:
 
 - Propiedades que no permitan fiestas.
+  ![imagen](imagenes/noparties.png)
 - Propiedades que admitan mascotas.
+  ![imagen](imagenes/pets_yes.png)
 - Propiedades que no permitan fumadores.
+  ![imagen](imagenes/no_smoke.png)
 - Propiedades que no permitan fiestas ni fumadores.
+  ![imagen](imagenes/no_smoke_party.png)
 ### :pushpin: Reto 2. Notación punto y arreglos. 
 Para las consultas a *objetos anidados* (objetos dentro de objetos) ya sea dentro de un solo campo o dentro de un arreglo hacemos uso de la ***notación punto***
 - Usando la colección `sample_airbnblistingsAndReviews`, agrega un filtro que permita obtener todas las publicaciones que tengan 50 o más comentarios, que la valoración sea mayor o igual a 80, que cuenten con conexión a Internet vía cable y estén ubicada en Brazil.
 **NOTA** En este caso es mejor utilizar el código de país para encontrar la ubicación deseada. 
+  ![imagen](imagenes/anidada_ethernet.png)
 ### :pushpin: Reto 3. Introducción a las agregaciones.
 Usando la colección `sample_airbnblistingsAndReviews`, mediante el uso de agregaciones, encontrar el número de publicaciones que tienen conexión a Internet, sea desde Wifi o desde cable (Ethernet).
